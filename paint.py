@@ -2,6 +2,7 @@ from tkinter import *
 
 
 def callback(event):
+    print(event.x,event.y)
 
 
 window=Tk()
