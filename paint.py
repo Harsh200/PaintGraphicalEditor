@@ -1,7 +1,8 @@
 from tkinter import *
 
 
-def callback():
+def callback(event):
+
 
 window=Tk()
 c=Canvas(window,width=400,height=400)
