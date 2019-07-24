@@ -9,7 +9,7 @@ def draw(event):
     print(event.x,event.y)
     c.create_oval(event.x - 5,event.y -5,event.x +5,event.y +5,fill="Black")
 
-def drawRectangle():
+def drawRectangle(event):
 
 
 
